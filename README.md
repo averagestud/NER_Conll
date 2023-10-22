@@ -4,6 +4,13 @@ Named_Entity_Recognition on Conll-2003 dataset
 This project was performed as CSOC'23 selections project.
 In this project using Bert_base_uncased model I have performed a very basic Sequence labelling part of Named Entity Recognition.
 
+#What is Named Entity Recognition?
+Named Entity Recognition (NER) is a natural language processing task that involves identifying and categorizing named entities (such as names of people, organizations, locations, dates, and more) 
+within a text. NER algorithms analyze the context and linguistic features of words in a text to determine whether they represent entities and assign them to predefined categories, 
+like "Person," "Organization," or "Location." NER is crucial for information extraction, text analysis, and various applications like chatbots, search engines, and language understanding systems.
+It helps in extracting structured information from unstructured text data.
+*Note: Not a single line in the above paragraph was written by me.ChatGPT generated it. Who would know NLP techniques better than a model designed to perform those tasks :)
+
 The first step of any project is the part where the dataset has been loaded and we can see that it containd it in a dict format of train, val and test data and each of which contains 'pos_tags(Part of Speech),
 'chunk_tags', 'id', 'tokens' and finally 'ner_tags'(the part that is focused on this project).
 First we tokenize the sentence using the BertFastTokenizer and this has the attribute is_fast=True.
