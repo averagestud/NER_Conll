@@ -14,7 +14,7 @@ It helps in extracting structured information from unstructured text data.<br>
 The first step of any project is the part where the dataset has been loaded and we can see that it containd it in a dict format of train, val and test data and each of which contains 'pos_tags(Part of Speech),
 'chunk_tags', 'id', 'tokens' and finally 'ner_tags'(the part that is focused on this project).
 First we tokenize the sentence using the BertFastTokenizer and this has the attribute is_fast=True.
-We won't be able to see any difference in the tokenizing of one sentence and vwe would only be able to recognise the difference when we use it for large corpus of texts.
+We won't be able to see any difference in the tokenizing of one sentence and vwe would only be able to recognise the difference when we use it for large corpus of texts.<br>
 The image below has been taken from HuggingFace official website of Fast Tokenizer.
 ![image](https://github.com/averagestud/NER_Conll/assets/128608033/05b93a9e-d9e8-49de-ba28-e2b85552f146)
 
